@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "private_contact_type": "Osoba prywatna",
+      "private_contact_first_name": "Rebeca",
+      "private_contact_last_name": "Bruen",
+      "private_contact_phone_mobile": "701683938",
+      "private_contact_email_address": "Elta16@yahoo.com",
+      "private_contact_position": "Division",
+      "private_contact_birthdate": "7.05.1975",
+      "company_contact_type": "Pracownik firmy",
+      "company_contact_first_name": "Ivory",
+      "company_contact_last_name": "Weissnat-Pouros",
+      "company_contact_phone_mobile": "801384087",
+      "company_contact_email_address": "Lura.Kihn68@hotmail.com",
+      "company_contact_position": "Factors",
+      "company_contact_birthdate": "22.02.1998"
+    }
+  ]
+}

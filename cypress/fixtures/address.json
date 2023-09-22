@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "contact_address_type": "Home page",
+      "contact_address_country": "Polska",
+      "contact_address_state": "zachodniopomorskie",
+      "contact_address_city": "Wrocław",
+      "contact_address_postalcode": "96-943",
+      "contact_address_street": "Cindy Park",
+      "company_address_type": "Fakturowania",
+      "company_address_country": "Polska",
+      "company_address_state": "wielkopolskie",
+      "company_address_city": "Warszawa",
+      "company_address_postalcode": "66-897",
+      "company_address_street": "Chaz Fords"
+    }
+  ]
+}

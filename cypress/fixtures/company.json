@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "parent_company_type": "Firma nadrzędna",
+      "parent_company_name": "Goldner, Schulist and Cruickshank",
+      "parent_company_phone_mobile": "401163053",
+      "parent_company_email_address": "Demarco.Bogisich80@hotmail.com",
+      "parent_company_from_area": "ASTOR Katowice",
+      "parent_company_operated_by": "ASTOR Katowice",
+      "branch_company_type": "Oddział / Wydział / Zakład",
+      "branch_company_name": "Buckridge Inc",
+      "branch_company_phone_mobile": "501819267",
+      "branch_company_email_address": "Eulah_Heathcote@yahoo.com",
+      "branch_company_from_area": "ASTOR Katowice",
+      "branch_company_operated_by": "ASTOR Katowice",
+      "foreign_company_type": "Firma zagraniczna",
+      "foreign_company_name": "Streich, Hermann and Mann",
+      "foreign_company_phone_mobile": "601568948",
+      "foreign_company_email_address": "Bernadette_Nolan34@gmail.com",
+      "foreign_company_from_area": "Firma zagraniczna",
+      "foreign_company_operated_by": "ASTOR Katowice",
+      "end_user_company_kind": "End User",
+      "parent_company_nip_eu_vat": "8377600490"
+    }
+  ]
+}

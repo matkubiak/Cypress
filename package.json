@@ -1,0 +1,30 @@
+{
+  "name": "astor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e:chrome": "cypress run --browser chrome",
+    "e2e:firefox": "cypress run --browser firefox",
+    "cy:firefox": "wait-on localhost && TZ=Europe/Warsaw cypress run --browser firefox",
+    "cy:chrome": "wait-on localhost && TZ=Europe/Warsaw  cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matkubiak.git"
+  },
+  "author": "matkubiak",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "cypress-real-events": "^1.8.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress-wait-until": "^1.7.2",
+    "cypress-xpath": "^2.0.1",
+    "dayjs": "^1.11.7",
+    "wait-on": "^5.2.0"
+  }
+}

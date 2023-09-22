@@ -1,0 +1,40 @@
+#variables:
+#  npm_config_cache: "$CI_PROJECT_DIR/.npm"
+#  CYPRESS_CACHE_FOLDER: "$CI_PROJECT_DIR/cache/Cypress"
+
+stages:          # List of stages for jobs, and their order of execution
+  - test
+
+e2e-chrome:       # This job runs in the build stage, which runs first.
+  image: cypress/browsers:latest
+  stage: test
+#  cache:
+#    paths:
+#      - .npm
+#      - cache/Cypress
+  script:
+    - npm install 
+    - npm ci --prefer-offline
+    - npm run cy:chrome
+  artifacts:
+    when: always
+    paths:
+      - /builds/Customers/cypress/videos
+    expire_in: 1 hour
+
+e2e-firefox:       
+  image: cypress/browsers:latest
+  stage: test
+#  cache:
+#    paths:
+#      - .npm
+#      - cache/Cypress
+  script:
+    - npm install 
+    - npm ci --prefer-offline
+    - npm run cy:firefox
+  artifacts:
+    when: always
+    paths:
+      - /builds/Customers/cypress/videos
+    expire_in: 1 hour
